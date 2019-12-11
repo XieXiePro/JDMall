@@ -1,6 +1,5 @@
 <!--miniprogram/pages/shoppingCart/shoppingCart.wxml-->
 <view class="content">
-  <view class="hr"></view>
   <view class="info">
     <view class="sscs">
       <image src="../../assets/images/jd_bg.png" style="width:100%;height:100px;"></image>

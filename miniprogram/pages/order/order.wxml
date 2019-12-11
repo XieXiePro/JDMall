@@ -10,13 +10,13 @@
         <view class="item_row">></view>
       </view>
       <view class="hr"></view>
-      <view class="item">
+      <view class="item" bindtap="myCoupon">
         <image class="item_img" src="../../assets/images/btn_tab_personal_center_1.png" style="width:25px;height:25px;"></image>
         <view class="item_name">我的订单</view>
         <view class="item_row">></view>
       </view>
       <view class="hr"></view>
-      <view class="item">
+      <view class="item" bindtap="myCoupon">
         <image class="item_img" src="../../assets/images/btn_tab_personal_center_1.png" style="width:25px;height:25px;"></image>
         <view class="item_name">我的商城</view>
         <view class="item_row">></view>

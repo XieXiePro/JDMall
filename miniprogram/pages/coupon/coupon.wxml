@@ -1,2 +1,49 @@
 <!--miniprogram/pages/coupon/coupon.wxml-->
-<text>miniprogram/pages/coupon/coupon.wxml</text>
+<view class="content">
+  <view class="menu">
+    <view class="{{currentTab==0?'select':'default'}}" data-current="0" bindtap="switchNav">待使用 2</view>
+    <view class="{{currentTab==1?'select':'default'}}" data-current="1" bindtap="switchNav">已过期 1</view>
+    <view class="{{currentTab==2?'select':'default'}}" data-current="2" bindtap="switchNav">已使用 2</view>
+  </view>
+  <view class="hr"></view>
+  <view wx:for="{{coupons}}">
+    <block wx:if="{{currentTab==0}}">
+      <view class="discount_items">
+        <view class="discount_item">
+          <view class="priceInfo">
+            <view class="price">
+              <text class="rmb">￥</text>
+              <text class="count">{{item.price}}</text>
+            </view>
+            <view class="type">
+              <view>
+                <view class="discount_type">满减券</view>
+              </view>
+              <view class="limit">{{item.way}}（特殊商品除外）</view>
+            </view>
+          </view>
+          <view class="desc">{{item.date}}</view>
+        </view>
+      </view>
+    </block>
+    <block wx:else>
+      <view class="discount_items">
+        <view class="discount_item">
+          <view class="priceInfo">
+            <view class="price">
+              <text class="rmb">￥</text>
+              <text class="count">{{item.price}}</text>
+            </view>
+            <view class="type">
+              <view>
+                <view class="discount_type">满减券</view>
+              </view>
+              <view class="limit">{{item.way}}（特殊商品除外）</view>
+            </view>
+          </view>
+          <view class="desc">{{item.date}}</view>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

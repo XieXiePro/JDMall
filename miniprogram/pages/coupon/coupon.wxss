@@ -1,1 +1,112 @@
 /* miniprogram/pages/coupon/coupon.wxss */
+
+.content {
+  font-family: "Microsoft YaHei";
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.menu view {
+  margin: 0 auto;
+}
+
+.select {
+  font-size: 15px;
+  color: red;
+  width: 33%;
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+  border-bottom: 5rpx solid red;
+}
+
+.default {
+  font-size: 15px;
+  width: 33%;
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+}
+
+.pic {
+  margin: 10px;
+}
+
+.item {
+  width: 320px;
+  border: 1px solid #ff3000;
+  height: 100px;
+  margin: 10px;
+  background-color: #f6f5f3;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.discount_items {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.discount_item {
+  width: 340px;
+  border: 1px solid #ff3000;
+  height: 80px;
+  margin: 5px;
+  background-color: #f6f5f3;
+  border-radius: 5px;
+  align-items: center;
+}
+.priceInfo {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.price {
+  width: 40%;
+  line-height: 40px;
+  color: #ff3000;
+}
+
+.type {
+  font-size: 15px;
+  color: #ff3000;
+}
+
+.discount_type {
+  font-size: 10px;
+  background-color: #fff;
+  height: 15px;
+  color: #ff3000;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #ff3000;
+}
+
+.rmb {
+  font-size: 13px;
+}
+
+.count {
+  font-size: 20px;
+}
+
+.limit {
+  font-size: 13px;
+}
+
+.desc {
+  font-size: 12px;
+  width: 340px;
+  background-color: #ff3000;
+  height: 27px;
+  color: #fff;
+  text-align: center;
+  line-height: 25px;
+}
