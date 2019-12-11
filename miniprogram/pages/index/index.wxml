@@ -2,7 +2,10 @@
 <view class="container">
   <view class="backgroud">
     <image src="../../assets/images/jd_bg.png"></image>
-    <input class="search" placeholder="搜索商品"></input>
+    <view class="search" bindtap="search">
+      <image src="../../assets/images/search.png" style="width:16px;height:16px;"></image>
+      <input placeholder="搜索商品"></input>
+    </view>
   </view>
   <view class="discount_title">发现京东好券</view>
   <view class="discount_items">
@@ -29,7 +32,7 @@
         </view>
         <view class="type">
           <view>
-              <view class="discount_type">满减券</view>
+            <view class="discount_type">满减券</view>
           </view>
           <view class="limit">满100可用</view>
         </view>
@@ -47,7 +50,7 @@
         </view>
         <view class="type">
           <view>
-              <view class="discount_type">满减券</view>
+            <view class="discount_type">满减券</view>
           </view>
           <view class="limit">满100可用</view>
         </view>
@@ -62,7 +65,7 @@
         </view>
         <view class="type">
           <view>
-             <view class="discount_type">满减券</view>
+            <view class="discount_type">满减券</view>
           </view>
           <view class="limit">满100可用</view>
         </view>

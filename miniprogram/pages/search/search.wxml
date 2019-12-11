@@ -1,0 +1,36 @@
+<!--miniprogram/pages/search/search.wxml-->
+<view class="backgroud">
+  <view class="search_content">
+    <view class="search" bindtap="search">
+      <image src="../../assets/images/search.png" style="width:16px;height:16px;"></image>
+      <input placeholder="搜索商品" placeholder-class="holder" bindblur="searchGoods" id="search" value="{{name}}"></input>
+    </view>
+    <image src="../../assets/images/delete.png" style="width:16px;height:16px;" bindtap="resetSearch"></image>
+  </view>
+  <view class="hr"></view>
+  <block wx:if="{{result.length>0}}">
+    <block wx:for="{{result}}">
+      <view class="item">
+        <view class="name">{{item}}</view>
+        <view class="hr"></view>
+      </view>
+    </block>
+  </block>
+  <block wx:else>
+    <view class="hotSearch">
+      <view class="list_title">
+        <view class="left">热门搜索</view>
+        <view class="right">换一批</view>
+      </view>
+    </view>
+    <view class="list_content">
+      <view class="tips">
+        <view class="tip">双十二</view>
+        <view class="tip">女装</view>
+        <view class="tip">手机</view>
+        <view class="tip">男装</view>
+        <view class="tip">零食</view>
+      </view>
+    </view>
+  </block>
+</view>

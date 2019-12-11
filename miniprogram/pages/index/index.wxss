@@ -16,7 +16,7 @@ page {
 .search {
   width: 80%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   border: 1px solid #ccc;
   height: 25px;
   background-color: #f6f5f3;
