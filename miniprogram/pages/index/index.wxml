@@ -1,8 +1,74 @@
 <!--index.wxml-->
 <view class="container">
+  <view class="backgroud">
+    <image src="../../assets/images/jd_bg.png"></image>
+    <input class="search" placeholder="搜索商品"></input>
+  </view>
+  <view class="discount_title">发现京东好券</view>
+  <view class="discount_items">
+    <view class="discount_item">
+      <view class="priceInfo">
+        <view class="price">
+          <text class="rmb">￥</text>
+          <text class="count">5</text>
+        </view>
+        <view class="type">
+          <view>
+            <view class="discount_type">满减券</view>
+          </view>
+          <view class="limit">满100可用</view>
+        </view>
+      </view>
+      <view class="desc">全品类（特价商品除外）</view>
+    </view>
+    <view class="discount_item">
+      <view class="priceInfo">
+        <view class="price">
+          <text class="rmb">￥</text>
+          <text class="count">5</text>
+        </view>
+        <view class="type">
+          <view>
+              <view class="discount_type">满减券</view>
+          </view>
+          <view class="limit">满100可用</view>
+        </view>
+      </view>
+      <view class="desc">全品类（特价商品除外）</view>
+    </view>
 
-  <!-- 用户 openid -->
-  <view class="userinfo">
-    <button open-type="getUserInfo" bindgetuserinfo="onGetUserInfo" class="userinfo-avatar" style="background-image: url({{avatarUrl}})" size="default"></button>
+  </view>
+  <view class="discount_items">
+    <view class="discount_item">
+      <view class="priceInfo">
+        <view class="price">
+          <text class="rmb">￥</text>
+          <text class="count">5</text>
+        </view>
+        <view class="type">
+          <view>
+              <view class="discount_type">满减券</view>
+          </view>
+          <view class="limit">满100可用</view>
+        </view>
+      </view>
+      <view class="desc">全品类（特价商品除外）</view>
+    </view>
+    <view class="discount_item">
+      <view class="priceInfo">
+        <view class="price">
+          <text class="rmb">￥</text>
+          <text class="count">5</text>
+        </view>
+        <view class="type">
+          <view>
+             <view class="discount_type">满减券</view>
+          </view>
+          <view class="limit">满100可用</view>
+        </view>
+      </view>
+      <view class="desc">全品类（特价商品除外）</view>
+    </view>
+
   </view>
 </view>

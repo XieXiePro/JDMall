@@ -9,6 +9,33 @@
     "navigationBarTitleText": "仿京东商城",
     "navigationBarTextStyle": "black"
   },
+  "tabBar": {
+    "color": "#222222",
+    "selectedColor": "#FF3000",
+    "backgroundColor": "#FFF",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "搜索商品",
+        "iconPath": "assets/images/category.png",
+        "selectedIconPath": "assets/images/category-active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "购物车",
+        "iconPath": "assets/images/btn_tab_cart_1.png",
+        "selectedIconPath": "assets/images/btn_tab_cart_2.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的订单",
+        "iconPath": "assets/images/btn_tab_personal_center_1.png",
+        "selectedIconPath": "assets/images/btn_tab_personal_center_2.png"
+      }
+    ]
+  },
   "sitemapLocation": "sitemap.json",
   "style": "v2"
 }
