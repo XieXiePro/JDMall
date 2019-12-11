@@ -5,7 +5,7 @@ Page({
     name: ''
   },
   loadGoods: function() {
-    var goods = ['奶粉成人', '咖啡', '咖啡豆', '豆浆'];
+    var goods = ['奶粉成人', '咖啡', '咖啡豆', '豆浆', '手机'];
     return goods;
   },
   searchGoods: function(e) {
@@ -31,5 +31,10 @@ Page({
       result: result,
       name: ''
     });
+  },
+  shoppingCart: function() {
+    wx.navigateTo({
+      url: '../search/search',
+    })
   }
 })

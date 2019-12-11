@@ -1,0 +1,60 @@
+<!--miniprogram/pages/shoppingCart/shoppingCart.wxml-->
+<view class="content">
+  <view class="hr"></view>
+  <view class="info">
+    <view class="sscs">
+      <image src="../../assets/images/jd_bg.png" style="width:100%;height:100px;"></image>
+    </view>
+    <view class="line"></view>
+    <view class="receive">
+      <view>
+        <view class="time">
+          <view class="left">收货时间</view>
+          <view class="right">一小时送达可预定</view>
+        </view>
+        <view class="freight">0￥起送，22:00前满30免运费，22:00后满69免运费</view>
+      </view>
+      <view class="detail2">></view>
+    </view>
+    <view class="line"></view>
+    <view class="items">
+      <checkbox-group bindchange="checkboxChange">
+        <block wx:for="{{orders}}">
+          <view class="item">
+            <view class="icon">
+              <checkbox value="{{item.id}}" checked="{{selected}}"></checkbox>
+            </view>
+            <view class="pic">
+              <image src="{{item.pic}}" style="width:70px;height:70px;"></image>
+            </view>
+            <view class="odrer">
+              <view class="title">{{item.name}}</view>
+              <view class="priceInfo">
+                <view class="price">￥</view>
+                <view class="price">{{item.price}}</view>
+                <view class="minus" id="{{item.id}}" bindtap="minusGoods">-</view>
+                <view class="count">{{item.count}}</view>
+                <view class="add" id="{{item.id}}" bindtap="addGoods">+</view>
+              </view>
+            </view>
+          </view>
+          <view class="line"></view>
+        </block>
+      </checkbox-group>
+      <checkbox-group bindchange="checkAll">
+        <view class="all">
+          <view>
+            <checkbox checked="{{selectedAll}}" />
+          </view>
+          <view class="selectAll" >
+            全选
+          </view>
+          <view class="total">
+            共{{totalPrice}}元
+          </view>
+          <view class="opr">选好了</view>
+        </view>
+      </checkbox-group>
+    </view>
+  </view>
+</view>

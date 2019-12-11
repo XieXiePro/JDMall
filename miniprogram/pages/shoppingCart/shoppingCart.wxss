@@ -1,0 +1,163 @@
+/* miniprogram/pages/shoppingCart/shoppingCart.wxss */
+
+.content {
+  font-family: "Microsoft YaHei";
+  height: 200px;
+  background-color: #f9f9f9;
+}
+
+.hr {
+  height: 12px;
+  background-color: #f9f9f9;
+}
+
+.address {
+  height: 25px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+}
+
+.desc {
+  line-height: 42px;
+  padding-left: 10px;
+  font-size: 15px;
+  color: #f00;
+}
+
+.detail {
+  position: absolute;
+  right: 10px;
+  line-height: 42px;
+}
+
+.info {
+  background-color: #fff;
+}
+
+.sscs {
+  text-align: center;
+}
+
+.line {
+  border: 1px solid #ccc;
+  opacity: 0.2;
+}
+
+.receive {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.time {
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  width: 50%;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.right {
+  width: 50%;
+  text-align: left;
+  font-size: 15px;
+  color: #5dafed;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.freight {
+  font-size: 13px;
+  margin-right: 20px;
+}
+
+.detail2 {
+  position: absolute;
+  right: 10px;
+  line-height: 60px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+}
+
+.order {
+  width: 100%;
+  height: 87px;
+}
+
+.title {
+  font-size: 15px;
+}
+
+.priceInfo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.pic {
+  margin: 10px;
+}
+
+.price {
+  width: 65%;
+  font-size: 15px;
+  color: #f00;
+  text-align: left;
+}
+
+.minus, .add {
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  width: 25px;
+  color: #f00;
+  text-align: center;
+}
+
+.count {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.all {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.selectAll {
+  width: 20%;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.total {
+  width: 30%;
+  font-size: 15px;
+  color: #f00;
+  font-weight: bold;
+}
+
+.opr {
+  position: absolute;
+  right: 0px;
+  width: 92px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #ffd600;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}

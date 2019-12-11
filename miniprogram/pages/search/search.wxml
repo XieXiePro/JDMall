@@ -9,9 +9,9 @@
   </view>
   <view class="hr"></view>
   <block wx:if="{{result.length>0}}">
-    <block wx:for="{{result}}">
+    <block key="key" wx:for="{{result}}">
       <view class="item">
-        <view class="name">{{item}}</view>
+        <view class="name" bindtap="shoppingCart">{{item}}</view>
         <view class="hr"></view>
       </view>
     </block>
@@ -25,11 +25,11 @@
     </view>
     <view class="list_content">
       <view class="tips">
-        <view class="tip">双十二</view>
-        <view class="tip">女装</view>
-        <view class="tip">手机</view>
-        <view class="tip">男装</view>
-        <view class="tip">零食</view>
+        <view class="tip" bindtap="shoppingCart">双十二</view>
+        <view class="tip" bindtap="shoppingCart">女装</view>
+        <view class="tip" bindtap="shoppingCart">手机</view>
+        <view class="tip" bindtap="shoppingCart">男装</view>
+        <view class="tip" bindtap="shoppingCart">零食</view>
       </view>
     </view>
   </block>

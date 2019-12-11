@@ -14,7 +14,7 @@ page {
 }
 
 .search {
-  width: 80%;
+  width: 90%;
   display: flex;
   flex-direction: row;
   border: 1px solid #ccc;
@@ -41,10 +41,10 @@ page {
 }
 
 .discount_item {
+  width: 140px;
   border: 1px solid #47c1c4;
-  width: 48%;
   height: 80px;
-  margin: 0 auto;
+  margin: 5px;
   background-color: #f6f5f3;
   border-radius: 5px;
   align-items: center;
@@ -69,12 +69,12 @@ page {
 
 .discount_type {
   font-size: 10px;
-  background-color: #FFF;
+  background-color: #fff;
   height: 15px;
-  color: #FF3000;
+  color: #ff3000;
   text-align: center;
   border-radius: 5px;
-  border: 1px solid #FF3000;
+  border: 1px solid #ff3000;
 }
 
 .rmb {
@@ -91,9 +91,10 @@ page {
 
 .desc {
   font-size: 12px;
+  width: 140px;
   background-color: #47c1c4;
-  height: 30px;
+  height: 27px;
   color: #fff;
   text-align: center;
-  line-height: 30px;
+  line-height: 25px;
 }

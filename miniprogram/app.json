@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/search/search"
+    "pages/search/search",
+    "pages/shoppingCart/shoppingCart"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -24,7 +25,7 @@
         "selectedIconPath": "assets/images/category-active.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/shoppingCart/shoppingCart",
         "text": "购物车",
         "iconPath": "assets/images/btn_tab_cart_1.png",
         "selectedIconPath": "assets/images/btn_tab_cart_2.png"
