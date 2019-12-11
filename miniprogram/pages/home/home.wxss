@@ -42,7 +42,7 @@ page {
 
 .discount_item {
   width: 140px;
-  border: 1px solid #47c1c4;
+  border: 1px solid #ff3000;
   height: 80px;
   margin: 5px;
   background-color: #f6f5f3;
@@ -59,12 +59,12 @@ page {
 .price {
   width: 40%;
   line-height: 40px;
-  color: #47c1c4;
+  color: #ff3000;
 }
 
 .type {
   font-size: 15px;
-  color: #47c1c4;
+  color: #ff3000;
 }
 
 .discount_type {
@@ -92,7 +92,7 @@ page {
 .desc {
   font-size: 12px;
   width: 140px;
-  background-color: #47c1c4;
+  background-color: #ff3000;
   height: 27px;
   color: #fff;
   text-align: center;

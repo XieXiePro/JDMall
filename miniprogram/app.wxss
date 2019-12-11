@@ -25,3 +25,16 @@ page {
   flex-direction: column;
   justify-content: flex-start;
 }
+
+.item {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.hr {
+  border: 1px solid #ccc;
+  opacity: 0.2;
+}

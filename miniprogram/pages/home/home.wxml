@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="backgroud">
-    <image src="../../assets/images/jd_bg.png"></image>
+  <view class="backgroud" style="width:100%;">
+    <image src="../../assets/images/jd_bg.png" style="width:100%;height:200px;"></image>
     <view class="search" bindtap="search">
       <image src="../../assets/images/search.png" style="width:16px;height:16px;"></image>
       <input placeholder="搜索商品"></input>

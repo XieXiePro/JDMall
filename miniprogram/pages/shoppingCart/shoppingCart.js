@@ -149,5 +149,10 @@ Page({
     }
     wx.setStorageSync('goods', addOrders);
     this.loadOrders();
+  },
+  order: function() {
+    wx.navigateTo({
+      url: '../order/order',
+    })
   }
 })

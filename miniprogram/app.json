@@ -1,8 +1,10 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/home/home",
     "pages/search/search",
-    "pages/shoppingCart/shoppingCart"
+    "pages/shoppingCart/shoppingCart",
+    "pages/order/order",
+    "pages/coupon/coupon"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -19,7 +21,7 @@
     "position": "bottom",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/home/home",
         "text": "搜索商品",
         "iconPath": "assets/images/category.png",
         "selectedIconPath": "assets/images/category-active.png"
@@ -31,7 +33,7 @@
         "selectedIconPath": "assets/images/btn_tab_cart_2.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/order/order",
         "text": "我的订单",
         "iconPath": "assets/images/btn_tab_personal_center_1.png",
         "selectedIconPath": "assets/images/btn_tab_personal_center_2.png"

@@ -156,7 +156,8 @@
   width: 92px;
   font-size: 15px;
   font-weight: bold;
-  background-color: #ffd600;
+  color: #fff;
+  background-color: #ff3000;
   height: 60px;
   text-align: center;
   line-height: 60px;
