@@ -1,0 +1,47 @@
+/* miniprogram/pages/superMarket/superMarket.wxss */
+
+.content {
+  display: flex;
+  flex-direction: row;
+  font-family: "Microsoft Yahei";
+}
+
+.left {
+  width: 25%;
+  font-size: 15px;
+}
+
+.left view {
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+}
+
+.select {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ffd600;
+  font-weight: bold;
+}
+
+.normal {
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #f2f2f2;
+}
+.right{
+  width: 75%;
+  margin: 10px;
+}
+.order{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 10px;
+}
+.order view{
+  width: 33%;
+  font-size: 15px;
+}
+.hr{
+  border: 1px solid #cccccc;
+  opacity: 0.2;
+}

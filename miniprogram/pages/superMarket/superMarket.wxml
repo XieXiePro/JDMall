@@ -1,0 +1,41 @@
+<!--miniprogram/pages/superMarket/superMarket.wxml-->
+<view class="content">
+  <view class="left">
+    <view class="{{flag==0?'select':'normal'}}" id="0" bindtap="switchNav">热销榜</view>
+    <view class="{{flag==1?'select':'normal'}}" id="1" bindtap="switchNav">天天特价</view>
+    <view class="{{flag==2?'select':'normal'}}" id="2" bindtap="switchNav">休闲零食</view>
+    <view class="{{flag==3?'select':'normal'}}" id="3" bindtap="switchNav">饮料酒水</view>
+    <view class="{{flag==4?'select':'normal'}}" id="4" bindtap="switchNav">生活用品</view>
+    <view class="{{flag==5?'select':'normal'}}" id="5" bindtap="switchNav">粮油调味</view>
+    <view class="{{flag==6?'select':'normal'}}" id="6" bindtap="switchNav">优选水果</view>
+    <view class="{{flag==7?'select':'normal'}}" id="7" bindtap="switchNav">新鲜蔬菜</view>
+    <view class="{{flag==8?'select':'normal'}}" id="8" bindtap="switchNav">面包熟食</view>
+    <view class="{{flag==9?'select':'normal'}}" id="9" bindtap="switchNav">其它</view>
+  </view>
+  <view class="right">
+    <view class="order">
+      <view>综合排名</view>
+      <view>按价格</view>
+      <view>按销量</view>
+    </view>
+
+    <view class="hr"></view>
+    <view class="category">
+      <swiper current="{{currentTab}}" style="height:500px">
+        <swiper-item>
+          我是热销榜
+          <include src="rxb..wxml" />
+        </swiper-item>
+        <swiper-item>我是天天特价</swiper-item>
+        <swiper-item>我是休闲零食</swiper-item>
+        <swiper-item>我是饮料酒水</swiper-item>
+        <swiper-item>我是生活用品</swiper-item>
+        <swiper-item>我是粮油调味</swiper-item>
+        <swiper-item>我是优选水果</swiper-item>
+        <swiper-item>我是新鲜蔬菜</swiper-item>
+        <swiper-item>我是面包熟食</swiper-item>
+        <swiper-item>我是其它</swiper-item>
+      </swiper>
+    </view>
+  </view>
+</view>
