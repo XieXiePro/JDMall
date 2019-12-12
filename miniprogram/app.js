@@ -36,7 +36,7 @@ App({
     good.id = "0";
     good.count = "1";
     good.pic = "../../assets/images/jd_bg.png";
-    good.name = "蒙牛纯甄酸牛奶原味200ml";
+    good.name = "蒙牛酸牛奶200ml";
     good.price = '5.5';
     good.type = 'mlik.supermarket';
     goods[0] = good;

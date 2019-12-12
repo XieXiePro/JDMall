@@ -18,8 +18,8 @@
 }
 
 .select {
-  background-color: #ffffff;
-  border-bottom: 1px solid #ffd600;
+  background-color: #fff;
+  border-bottom: 1px solid #ff3000;
   font-weight: bold;
 }
 
@@ -27,21 +27,26 @@
   background-color: #f8f8f8;
   border-bottom: 1px solid #f2f2f2;
 }
-.right{
+
+.right {
   width: 75%;
   margin: 10px;
 }
-.order{
+
+.order {
   display: flex;
   flex-direction: row;
   text-align: center;
   padding: 10px;
+  width: 100%;
 }
-.order view{
+
+.order view {
   width: 33%;
   font-size: 15px;
 }
-.hr{
-  border: 1px solid #cccccc;
+
+.hr {
+  border: 1px solid #ccc;
   opacity: 0.2;
 }

@@ -3,7 +3,7 @@ Page({
   data: {
 
   },
-  myCoupon: function () {
+  myCoupon: function() {
     wx.navigateTo({
       url: '../coupon/coupon',
     })

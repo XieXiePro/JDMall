@@ -14,7 +14,7 @@
             <view class="odrer">
               <view class="title">{{item.name}}</view>
               <view class="priceInfo">
-                <view class="price">￥</view>
+                <view>￥</view>
                 <view class="price">{{item.price}}</view>
                 <view class="minus" id="{{item.id}}" bindtap="minusGoods">-</view>
                 <view class="count">{{item.count}}</view>
@@ -33,8 +33,14 @@
           <view class="selectAll">
             全选
           </view>
+          <view>
+            合计：
+          </view>
           <view class="total">
-            共{{totalPrice}}元
+            {{totalPrice}}
+          </view>
+          <view>
+            元
           </view>
           <view class="opr" bindtap="order">选好了</view>
         </view>

@@ -45,7 +45,7 @@ page {
   border: 1px solid #ff3000;
   height: 80px;
   margin: 5px;
-  background-color: #f6f5f3;
+  background-color: #fff;
   border-radius: 5px;
   align-items: center;
 }
