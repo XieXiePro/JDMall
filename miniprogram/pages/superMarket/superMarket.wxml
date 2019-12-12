@@ -23,18 +23,35 @@
     <view class="category">
       <swiper current="{{currentTab}}" style="height:500px">
         <swiper-item>
-          我是热销榜
-          <include src="rxb..wxml" />
+          <include src="./../home/home.wxml" />
         </swiper-item>
-        <swiper-item>我是天天特价</swiper-item>
-        <swiper-item>我是休闲零食</swiper-item>
-        <swiper-item>我是饮料酒水</swiper-item>
-        <swiper-item>我是生活用品</swiper-item>
-        <swiper-item>我是粮油调味</swiper-item>
-        <swiper-item>我是优选水果</swiper-item>
-        <swiper-item>我是新鲜蔬菜</swiper-item>
-        <swiper-item>我是面包熟食</swiper-item>
-        <swiper-item>我是其它</swiper-item>
+        <swiper-item>
+          <include src="./../home/home.wxml" />
+        </swiper-item>
+        <swiper-item>
+          <include src="./../home/home.wxml" />
+        </swiper-item>
+        <swiper-item>
+          <include src="./../home/home.wxml" />
+        </swiper-item>
+        <swiper-item>
+          <include src="./../home/home.wxml" />
+        </swiper-item>
+        <swiper-item>
+          <include src="./../home/home.wxml" />
+        </swiper-item>
+        <swiper-item>
+          <include src="./../home/home.wxml" />
+        </swiper-item>
+        <swiper-item>
+          <include src="./../home/home.wxml" />
+        </swiper-item>
+        <swiper-item>
+          <include src="./../home/home.wxml" />
+        </swiper-item>
+        <swiper-item>
+          <include src="./../home/home.wxml" />
+        </swiper-item>
       </swiper>
     </view>
   </view>
