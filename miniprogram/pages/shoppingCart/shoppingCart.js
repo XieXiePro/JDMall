@@ -144,7 +144,7 @@ Page({
     this.loadOrders();
   },
   order: function() {
-    wx.navigateTo({
+    wx.switchTab({
       url: '../order/order',
     })
   }

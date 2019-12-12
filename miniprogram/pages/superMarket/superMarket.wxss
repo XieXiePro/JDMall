@@ -50,3 +50,17 @@
   border: 1px solid #ccc;
   opacity: 0.2;
 }
+
+.tip {
+  background-color: #fff;
+  width: 30%;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 13px;
+  margin-right: 10px;
+  float: left;
+  margin-bottom: 10px;
+  border: 1px solid #ff3000;
+}

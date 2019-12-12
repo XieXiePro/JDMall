@@ -29,7 +29,7 @@ Page({
     var coupons = new Array();
     var coupon = new Object();
     coupon.id = "1";
-    coupon.price = "200";
+    coupon.price = "5";
     coupon.condition = "满200可用";
     coupon.way = "全平台";
     coupon.date = "2019.3.22-2019.12.22";
@@ -38,7 +38,7 @@ Page({
 
     var coupon2 = new Object();
     coupon2.id = "2";
-    coupon2.price = "200";
+    coupon2.price = "5";
     coupon2.condition = "满200可用";
     coupon2.way = "全平台";
     coupon2.date = "2019.3.22-2019.12.22";
@@ -47,7 +47,7 @@ Page({
 
     var coupon3 = new Object();
     coupon3.id = "3";
-    coupon3.price = "200";
+    coupon3.price = "10";
     coupon3.condition = "满200可用";
     coupon3.way = "全平台";
     coupon3.date = "2019.3.22-2019.12.22";

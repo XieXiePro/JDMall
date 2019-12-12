@@ -7,7 +7,7 @@ Page({
   },
   search: function() {
     wx.navigateTo({
-      url: '../search/search',
+      url: '../coupon/coupon',
     })
   }
 })

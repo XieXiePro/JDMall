@@ -14,9 +14,9 @@
   </view>
   <view class="right">
     <view class="order">
-      <view class="order_composite">综合排名</view>
-      <view class="order_price">按价格</view>
-      <view class="order_sales">按销量</view>
+      <view class="tip">综合排名</view>
+      <view class="tip">按价格</view>
+      <view class="tip">按销量</view>
     </view>
 
     <view class="hr"></view>
