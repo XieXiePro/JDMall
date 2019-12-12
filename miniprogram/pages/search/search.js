@@ -32,6 +32,20 @@ Page({
       name: ''
     });
   },
+  searchHot: function(e) {
+    console.log(e);
+    var value = e.target.dataset.text; 
+    var result = new Array();
+    if (value != '') {
+      result.push(value);
+    }else{
+      result.push("无此类数据");
+    }
+    console.log(result);
+    this.setData({
+      result: result
+    });
+  },
   shoppingCart: function() {
     wx.navigateTo({
       url: '../search/search',

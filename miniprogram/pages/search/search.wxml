@@ -25,11 +25,11 @@
     </view>
     <view class="list_content">
       <view class="tips">
-        <view class="tip" bindtap="shoppingCart">双十二</view>
-        <view class="tip" bindtap="shoppingCart">女装</view>
-        <view class="tip" bindtap="shoppingCart">手机</view>
-        <view class="tip" bindtap="shoppingCart">男装</view>
-        <view class="tip" bindtap="shoppingCart">零食</view>
+        <view class="tip" bindtap="searchHot" data-text="双十二">双十二</view>
+        <view class="tip" bindtap="searchHot" data-text="女装">女装</view>
+        <view class="tip" bindtap="searchHot" data-text="手机">手机</view>
+        <view class="tip" bindtap="searchHot" data-text="男装">男装</view>
+        <view class="tip" bindtap="searchHot" data-text="零食">零食</view>
       </view>
     </view>
   </block>
