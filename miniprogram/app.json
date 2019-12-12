@@ -5,13 +5,14 @@
     "pages/shoppingCart/shoppingCart",
     "pages/coupon/coupon",
     "pages/order/order",
-    "pages/superMarket/superMarket"
+    "pages/superMarket/superMarket",
+    "components/shop/shop"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#FF3000",
-    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTextStyle": "black",
     "navigationBarTitleText": "仿京东商城"
   },
   "tabBar": {

@@ -16,6 +16,7 @@
         <view class="item_row">></view>
       </view>
       <view class="hr"></view>
+      <shop></shop>
     </view>
   </view>
 </view>

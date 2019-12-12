@@ -1,0 +1,19 @@
+/* miniprogram/components/shop/shop.wxss */
+
+.bg {
+  display: flex;
+  position: flex;
+  bottom: 0;
+  flex-direction: row;
+  text-align: center;
+}
+
+.row {
+  font-size: 12px;
+  color: #ccc;
+  width: 100%;
+  position: flex;
+  bottom: 0;
+  background: #f5f5f5;
+  text-align: center;
+}

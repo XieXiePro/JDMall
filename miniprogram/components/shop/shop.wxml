@@ -1,0 +1,4 @@
+<!--miniprogram/components/shop/shop.wxml-->
+<view class="bg">
+  <view class="row">...我是有底线的...</view>
+</view>

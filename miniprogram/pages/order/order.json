@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
-  "navigationBarTitleText": "我的订单"
+  "navigationBarTitleText": "我的订单",
+  "usingComponents": {
+    "shop": "../../components/shop/shop"
+  }
 }

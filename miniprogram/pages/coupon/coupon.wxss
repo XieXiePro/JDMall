@@ -38,7 +38,7 @@
 }
 
 .item {
-  width: 320px;
+  width: 700rpx;
   border: 1px solid #ff3000;
   height: 100px;
   margin: 10px;
@@ -54,7 +54,7 @@
 }
 
 .discount_item {
-  width: 340px;
+  width: 700rpx;
   border: 1px solid #ff3000;
   height: 80px;
   margin: 5px;
@@ -103,7 +103,7 @@
 
 .desc {
   font-size: 12px;
-  width: 340px;
+  width: 700rpx;
   background-color: #ff3000;
   height: 27px;
   color: #fff;
