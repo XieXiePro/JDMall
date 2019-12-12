@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
-  "navigationBarTitleText": "分类"
+  "navigationBarTitleText": "分类",
+  "usingComponents": {
+    "shop": "../../components/shop/shop"
+  }
 }

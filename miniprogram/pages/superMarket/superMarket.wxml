@@ -23,34 +23,34 @@
     <view class="category">
       <swiper current="{{currentTab}}" style="height:500px">
         <swiper-item>
-          <include src="./../home/home.wxml" />
+          <shop></shop>
         </swiper-item>
         <swiper-item>
-          <include src="./../home/home.wxml" />
+          <shop></shop>
         </swiper-item>
         <swiper-item>
-          <include src="./../home/home.wxml" />
+          <shop></shop>
         </swiper-item>
         <swiper-item>
-          <include src="./../home/home.wxml" />
+          <shop></shop>
         </swiper-item>
         <swiper-item>
-          <include src="./../home/home.wxml" />
+          <shop></shop>
         </swiper-item>
         <swiper-item>
-          <include src="./../home/home.wxml" />
+          <shop></shop>
         </swiper-item>
         <swiper-item>
-          <include src="./../home/home.wxml" />
+          <shop></shop>
         </swiper-item>
         <swiper-item>
-          <include src="./../home/home.wxml" />
+          <shop></shop>
         </swiper-item>
         <swiper-item>
-          <include src="./../home/home.wxml" />
+          <shop></shop>
         </swiper-item>
         <swiper-item>
-          <include src="./../home/home.wxml" />
+          <shop></shop>
         </swiper-item>
       </swiper>
     </view>

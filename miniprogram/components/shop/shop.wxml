@@ -1,4 +1,19 @@
 <!--miniprogram/components/shop/shop.wxml-->
 <view class="bg">
+  <view class="items">
+    <view class="item" bindtap="myChart">
+      <image class="item_img" src="../../assets/images/jd_bg.png" style="width:50px;height:50px;"></image>
+      <view class="item_name">提子燕麦</view>
+      <image class="item_img" src="../../assets/images/btn_tab_cart_2.png" style="width:20px;height:20px;"></image>
+    </view>
+    <view class="hr"></view>
+    <view class="item" bindtap="myChart">
+      <image class="item_img" src="../../assets/images/jd_bg.png" style="width:50px;height:50px;"></image>
+      <view class="item_name">黄桃酸奶</view>
+      <image class="item_img" src="../../assets/images/btn_tab_cart_2.png" style="width:20px;height:20px;" bindtap="myChart"></image>
+    </view>
+    <view class="hr"></view>
+    <shop></shop>
+  </view>
   <view class="row">...我是有底线的...</view>
 </view>
