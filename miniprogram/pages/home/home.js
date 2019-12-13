@@ -7,6 +7,11 @@ Page({
   },
   search: function() {
     wx.navigateTo({
+      url: '../search/search',
+    })
+  },
+  coupon: function() {
+    wx.navigateTo({
       url: '../coupon/coupon',
     })
   }
