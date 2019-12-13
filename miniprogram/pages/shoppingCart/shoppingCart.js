@@ -96,9 +96,19 @@ Page({
       var order = orders[i];
       if (order.id == good.id) {
         var count = order.count;
-        order.count = count + 1;
         if (count >= 2) {
           order.count = count - 1;
+        }else{
+          wx.showToast({
+            title: '宝贝不能再减少了哦',
+            icon: 'none',
+            image: '',
+            duration: 1500,
+            mask: false,
+            success: function(res) {},
+            fail: function(res) {},
+            complete: function(res) {},
+          })
         }
       }
       addOrders[i] = order;

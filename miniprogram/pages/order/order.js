@@ -7,5 +7,10 @@ Page({
     wx.navigateTo({
       url: '../coupon/coupon',
     })
+  },
+  myShop: function() {
+    wx.switchTab({
+      url: '../superMarket/superMarket',
+    })
   }
 })

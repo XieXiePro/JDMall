@@ -34,7 +34,7 @@ App({
     var goods = new Array();
     var good = new Object();
     good.id = "0";
-    good.count = "1";
+    good.count = 1;
     good.pic = "../../assets/images/jd_bg.png";
     good.name = "蒙牛酸牛奶200ml";
     good.price = '5.5';
@@ -42,7 +42,7 @@ App({
     goods[0] = good;
     var good1 = new Object();
     good1.id = "1";
-    good1.count = "1";
+    good1.count = 1;
     good1.pic = "../../assets/images/jd_bg.png";
     good1.name = "娃哈哈AD钙奶";
     good1.price = '5.5';
@@ -50,7 +50,7 @@ App({
     goods[1] = good1;
     var good2 = new Object();
     good2.id = "2";
-    good2.count = "1";
+    good2.count = 1;
     good2.pic = "../../assets/images/jd_bg.png";
     good2.name = "伊利安慕希200ml";
     good2.price = '5.0';
@@ -58,7 +58,7 @@ App({
     goods[2] = good2;
     var good3 = new Object();
     good3.id = "3";
-    good3.count = "1";
+    good3.count = 1;
     good3.pic = "../../assets/images/jd_bg.png";
     good3.name = "手机1个";
     good3.price = '2000';
@@ -69,7 +69,7 @@ App({
     good4.pic = "../../assets/images/jd_bg.png";
     good4.name = "美立方老北京汽水";
     good4.price = '4';
-    good4.count = "1";
+    good4.count = 1;
     good4.type = 'supermarket';
     goods[4] = good4;
 
