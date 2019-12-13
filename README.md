@@ -1,6 +1,8 @@
 # 仿京东商城小程序项目
 
-&emsp;&emsp;最近学习使用小程序开发开发了一款仿京东商城小程序。
+&emsp;&emsp;最近学习使用小程序开发开发了一款仿京东商城小程序效果如下：
+
+![仿京东商城](https://upload-images.jianshu.io/upload_images/2783386-110651950cab335a.gif?imageMogr2/auto-orient/strip)
 
 
 &emsp;&emsp;仿京东商城小程序基本实现首页搜索、商品分类列表、购物车等功能，项目结构如下：
